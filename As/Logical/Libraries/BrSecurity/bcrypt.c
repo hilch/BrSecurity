@@ -43,6 +43,7 @@
 #include <string.h>
 //#include <time.h>
 #include <bur/plctypes.h>
+#include <BrSecurity.h>
 
 
 /* This implementation is adaptable to current computing power.
