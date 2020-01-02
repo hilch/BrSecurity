@@ -12,7 +12,7 @@ Download the Automation Studio Library [here](https://github.com/hilch/BrSecurit
 implements [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) password hashing (origin: Open BSD).
 The maximum password length is limited to 56 characters. 
 
-You can check the hash online at [https://bcrypt-generator.com](https://bcrypt-generator.com/) or with [Bcrypt.cpp)(https://github.com/hilch/Bcrypt.cpp) in your own program.
+You can check the hash online at [https://bcrypt-generator.com](https://bcrypt-generator.com/) or with [Bcrypt.cpp](https://github.com/hilch/Bcrypt.cpp) in your own program.
 
 ### SecValidatePwd
 validates user's password against stored hash
