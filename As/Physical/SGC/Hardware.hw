@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.6.3.55?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20BB22" Type="X20BB22" Version="1.0.2.0" />
+  <Module Name="X20CP0292" Type="X20CP0292" Version="1.0.3.0">
+    <Connection Connector="SL" TargetModule="X20BB22" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20PS9500" Type="X20PS9500" Version="1.0.3.0">
+    <Connection Connector="PS" TargetModule="X20BB22" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>
