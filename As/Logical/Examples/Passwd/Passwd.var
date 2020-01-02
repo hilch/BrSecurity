@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Programm: Passwd
+ * Datei: Passwd.var
+ * Autor: hilchenbachc
+ * Erstellt: 2. Januar 2020
+ ********************************************************************
+ * Lokale Variablen des Programms Passwd
+ ********************************************************************)
+VAR
+	password_hash : STRING[60];
+	password_is_valid : BOOL;
+	result_password_hash : BOOL;
+	password : STRING[56];
+	generate_hash : BOOL;
+END_VAR

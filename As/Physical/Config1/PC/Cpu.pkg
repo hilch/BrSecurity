@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.6.3.55 SP?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="I/O mapping">IoMap.iom</Object>
+    <Object Type="File" Description="Variable mapping">PvMap.vvm</Object>
+    <Object Type="Package">VC</Object>
+  </Objects>
+  <Configuration ModuleId="PC_any">
+    <AutomationRuntime Version="S4.10" />
+    <Build GccVersion="4.1.2" />
+    <DefaultTargetMemory Tasks="UserROM" />
+    <Vc FirmwareVersion="nicht verwendet" />
+  </Configuration>
+</Cpu>

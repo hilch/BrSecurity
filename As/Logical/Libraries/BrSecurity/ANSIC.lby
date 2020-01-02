@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.6.3.55 SP?>
+<Library Version="1.00.0" SubType="AnsiC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">BrSecurity.fun</File>
+    <File>bcrypt.c</File>
+    <File>blf.h</File>
+    <File>blowfish.c</File>
+    <File>openbsd.h</File>
+    <File>ossupp.c</File>
+    <File>openbsd.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>

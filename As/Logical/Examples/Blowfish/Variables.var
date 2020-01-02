@@ -1,0 +1,6 @@
+VAR
+	data : ARRAY[0..255] OF USINT;
+	encode : BOOL;
+	decode : BOOL;
+	SecBlfInit_0 : SecBlfInit;
+END_VAR
