@@ -1,7 +1,8 @@
 [![License](https://img.shields.io/badge/License-BSD%204--Clause-blue.svg)](https://opensource.org/licenses/BSD-4-Clause) 
 
 # BrSecurity
-Security Functions for B&amp;R Automation Studio
+Security Functions for B&amp;R Automation Studio.
+
 Download the Automation Studio Library [here](https://github.com/hilch/BrSecurity/releases)
 
 ---
