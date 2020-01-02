@@ -4,6 +4,5 @@
   <Objects>
     <Object Type="Configuration">Config1</Object>
     <Object Type="Configuration">ARM</Object>
-    <Object Type="Configuration">SGC</Object>
   </Objects>
 </Physical>
