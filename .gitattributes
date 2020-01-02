@@ -1,0 +1,6 @@
+As/Logical/Libraries/ac_invlib/*.c linguist-language=C
+As/Logical/Libraries/ac_invlib/*.h linguist-language=C
+As/Locigal/*.dat linguist-vendored
+As/Locigal/*.st linguist-vendored
+As/Locigal/*.pkg linguist-vendored
+As/Physical/* linguist-vendored
