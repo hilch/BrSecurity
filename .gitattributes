@@ -1,3 +1,4 @@
+*.st linguist-language=C
 As/Logical/Libraries/ac_invlib/*.c linguist-language=C
 As/Logical/Libraries/ac_invlib/*.h linguist-language=C
 As/Locigal/*.dat linguist-vendored
