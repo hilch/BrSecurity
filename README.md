@@ -41,7 +41,7 @@ Use 'ctx' output for SecBlfEncrypt() and SecBlfDecrypt.
 ### SecBlfEncrypt
 Encrypts data pointed to by 'data' with length 'data_len'
 
-### SecBlfEncrypt
+### SecBlfDecrypt
 Decrypt data pointed to by 'data' with length 'data_len'
 
 You can check the data encryption online at [http://sladex.org/blowfish.js/](http://sladex.org/blowfish.js/)
