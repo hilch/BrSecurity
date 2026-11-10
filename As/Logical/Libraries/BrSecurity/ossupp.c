@@ -9,7 +9,7 @@
 
 char heap[1000];
 char *heapstart=heap;
-char *heapend=&heap[1000];
+char *heapend=&heap[999];
 
 
 void abort(void)
