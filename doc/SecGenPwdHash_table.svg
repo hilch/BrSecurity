@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="403px" height="198px" viewBox="0 0 403 198" font-family="Arial" font-size="8">
+  <title>SecGenPwdHash parameters</title>
+  <rect x="1" y="1" width="103" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="17">Parameter</tspan>
+  </text>
+  <rect x="104" y="1" width="124" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="112" y="17">Datatype</tspan>
+  </text>
+  <rect x="228" y="1" width="174" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="236" y="17">Description</tspan>
+  </text>
+  <rect x="1" y="29" width="401" height="28" fill="#eeeeee" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="45">Inputs</tspan>
+  </text>
+  <rect x="1" y="57" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="73">password</tspan>
+  </text>
+  <rect x="104" y="57" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="73">STRING[56]</tspan>
+  </text>
+  <rect x="228" y="57" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="73">password input</tspan>
+  </text>
+  <rect x="1" y="85" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="101">rounds</tspan>
+  </text>
+  <rect x="104" y="85" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="101">USINT</tspan>
+  </text>
+  <rect x="228" y="85" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="101">rounds input</tspan>
+  </text>
+  <rect x="1" y="113" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="129">hash</tspan>
+  </text>
+  <rect x="104" y="113" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="129">STRING[60]</tspan>
+  </text>
+  <rect x="228" y="113" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="129">hash output</tspan>
+  </text>
+  <rect x="1" y="141" width="401" height="28" fill="#eeeeee" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="157">Outputs</tspan>
+  </text>
+  <rect x="1" y="169" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="185">SecGenPwdHash</tspan>
+  </text>
+  <rect x="104" y="169" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="185">BOOL</tspan>
+  </text>
+  <rect x="228" y="169" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="185">generate brcypt password hash</tspan>
+  </text>
+</svg>

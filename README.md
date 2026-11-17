@@ -33,11 +33,19 @@ Download the Automation Studio Library [here](https://github.com/hilch/BrSecurit
 implements [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) password hashing (origin: Open BSD).
 The maximum password length is limited to 56 characters. 
 
+![SecGenPwdHash](/doc/SecGenPwdHash.svg)
+![SecGenPwdHash_table](/doc/SecGenPwdHash_table.svg)
+
 You can check the hash online at [https://bcrypt-generator.com](https://bcrypt-generator.com/) or with [Bcrypt.cpp](https://github.com/hilch/Bcrypt.cpp) in your own program.
+
 
 ### SecValidatePwd
 
 validates user's password against stored hash
+
+![SecValidatePwd](/doc/SecValidatePwd.svg)
+![SecValidatePwd_table](/doc/SecValidatePwd_table.svg)
+
 ```
 PROGRAM _CYCLIC
 
@@ -61,13 +69,22 @@ implements [Blowfish]() data encryption (origin: Open BSD).
 Prepares and stores the Blowfish context with the given key.
 Use 'ctx' output for SecBlfEncrypt() and SecBlfDecrypt.
 
+![SecBlfInit](/doc/SecBlfInit.svg)
+![SecBlfInit_table](/doc/SecBlfInit_table.svg)
+
 ### SecBlfEncrypt
 
 Encrypts data pointed to by 'data' with length 'data_len'
 
+![SecBlfEncrypt](/doc/SecBlfEncrypt.svg)
+![SecBlfEncrypt_table](/doc/SecBlfEncrypt_table.svg)
+
 ### SecBlfDecrypt
 
 Decrypt data pointed to by 'data' with length 'data_len'
+
+![SecBlfDecrypt](/doc/SecBlfDecrypt.svg)
+![SecBlfDecrypt_table](/doc/SecBlfDecrypt_table.svg)
 
 You can check the data encryption online at [http://sladex.org/blowfish.js/](http://sladex.org/blowfish.js/)
 

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="309px"
+    height="86px">
+    <defs>
+        <linearGradient
+            id="linearGradient_FB_Header"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#5cacee"/>
+            <stop offset="50%" stop-color="#ccdff8"/>
+            <stop offset="100%" stop-color="#ffffff"/>
+        </linearGradient>
+        <linearGradient
+            id="linearGradient_FB_Header_Safety"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#ffff00"/>
+            <stop offset="50%" stop-color="#ffffcc"/>
+            <stop offset="100%" stop-color="#ffffff"/>
+        </linearGradient>
+        <linearGradient
+            id="linearGradient_FB_Header_SafeDESIGNER"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#ffff00"/>
+            <stop offset="50%" stop-color="#ffff00"/>
+            <stop offset="100%" stop-color="#ffff00"/>
+        </linearGradient>
+        <linearGradient
+            id="linearGradient_FB_BodyArea_1"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#ff7f00"/>
+            <stop offset="50%" stop-color="#ffc8b6"/>
+            <stop offset="100%" stop-color="#ffffff"/>
+        </linearGradient>
+        <linearGradient
+            id="linearGradient_FB_BodyArea_1_Safety"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#ffff00"/>
+            <stop offset="50%" stop-color="#ffffcc"/>
+            <stop offset="100%" stop-color="#ffffff"/>
+        </linearGradient>
+        <linearGradient
+            id="linearGradient_FB_BodyArea_1_SafeDESIGNER"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#ffff00"/>
+            <stop offset="50%" stop-color="#ffff00"/>
+            <stop offset="100%" stop-color="#ffff00"/>
+        </linearGradient>
+        <linearGradient
+            id="linearGradient_FB_BodyArea_2"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#bebebe"/>
+            <stop offset="50%" stop-color="#e4e4e4"/>
+            <stop offset="100%" stop-color="#ffffff"/>
+        </linearGradient>
+        <rect id="FB_Header" height="16px" width="167px" fill="url(#linearGradient_FB_Header)" stroke="black"/>
+        <rect id="FB_Body" height="48px" width="167px" fill="#ffffff"/>
+        <rect id="FB_BodyArea1" height="48px" width="167px" fill="url(#linearGradient_FB_BodyArea_1)"/>
+        <rect id="FB_BodyArea2" height="0px" width="167px" fill="url(#linearGradient_FB_BodyArea_2)"/>
+        <rect id="FB_BodyFrame" height="64px" width="167px" stroke="black" style="fill:none;fill-opacity:1"/>
+    </defs>
+    <use x="81px" y="27px" xlink:href="#FB_Body"/>
+    <use x="81px" y="27px" xlink:href="#FB_BodyArea1"/>
+    <use x="81px" y="75px" xlink:href="#FB_BodyArea2"/>
+    <use x="81px" y="11px" xlink:href="#FB_BodyFrame"/>
+    <use x="81px" y="11px" xlink:href="#FB_Header"/>
+    <text x="164px" y="22px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:middle;writing-mode:lr">SecGenPwdHash</text>
+    <path d="M 63,35,81,35" stroke="black"/>
+    <text x="54px" y="38px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:end;writing-mode:lr">STRING[56]</text>
+    <text x="90px" y="38px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:start;writing-mode:lr">password</text>
+    <path d="M 63,51,81,51" stroke="black"/>
+    <text x="54px" y="54px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:end;writing-mode:lr">USINT</text>
+    <text x="90px" y="54px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:start;writing-mode:lr">rounds</text>
+    <path d="M 63,67,81,67" stroke="black"/>
+    <text x="54px" y="70px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:end;writing-mode:lr">STRING[60]</text>
+    <text x="90px" y="70px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:start;writing-mode:lr">hash</text>
+    <path d="M 248,35,266,35" stroke="black"/>
+    <text x="275px" y="38px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:start;writing-mode:lr">BOOL</text>
+    <text x="239px" y="38px" style="font-size:8px;fill:#000000;font-family:Arial;text-anchor:end;writing-mode:lr">SecGenPwdHash</text>
+</svg>

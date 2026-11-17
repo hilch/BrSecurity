@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="403px" height="142px" viewBox="0 0 403 142" font-family="Arial" font-size="8">
+  <title>SecBlfInit parameters</title>
+  <rect x="1" y="1" width="103" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="17">Parameter</tspan>
+  </text>
+  <rect x="104" y="1" width="124" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="112" y="17">Datatype</tspan>
+  </text>
+  <rect x="228" y="1" width="174" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="236" y="17">Description</tspan>
+  </text>
+  <rect x="1" y="29" width="401" height="28" fill="#eeeeee" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="45">Inputs</tspan>
+  </text>
+  <rect x="1" y="57" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="73">key</tspan>
+  </text>
+  <rect x="104" y="57" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="73">STRING[56]</tspan>
+  </text>
+  <rect x="228" y="57" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="73">key</tspan>
+  </text>
+  <rect x="1" y="85" width="401" height="28" fill="#eeeeee" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="101">Outputs</tspan>
+  </text>
+  <rect x="1" y="113" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="129">ctx</tspan>
+  </text>
+  <rect x="104" y="113" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="129">UDINT</tspan>
+  </text>
+  <rect x="228" y="113" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="129">pointer to blowfish context</tspan>
+  </text>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="403px" height="210px" viewBox="0 0 403 210" font-family="Arial" font-size="8">
+  <title>SecBlfEncrypt parameters</title>
+  <rect x="1" y="1" width="103" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="17">Parameter</tspan>
+  </text>
+  <rect x="104" y="1" width="124" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="112" y="17">Datatype</tspan>
+  </text>
+  <rect x="228" y="1" width="174" height="28" fill="#dce9f5" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="236" y="17">Description</tspan>
+  </text>
+  <rect x="1" y="29" width="401" height="28" fill="#eeeeee" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="45">Inputs</tspan>
+  </text>
+  <rect x="1" y="57" width="103" height="40" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="73">ctx</tspan>
+  </text>
+  <rect x="104" y="57" width="124" height="40" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="73">UDINT</tspan>
+  </text>
+  <rect x="228" y="57" width="174" height="40" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="73">pointer to blowfish context from</tspan>
+    <tspan x="236" y="85">SecBlfInit()</tspan>
+  </text>
+  <rect x="1" y="97" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="113">data</tspan>
+  </text>
+  <rect x="104" y="97" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="113">REFERENCE TO USINT</tspan>
+  </text>
+  <rect x="228" y="97" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="113">pointer to data</tspan>
+  </text>
+  <rect x="1" y="125" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="141">data_len</tspan>
+  </text>
+  <rect x="104" y="125" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="141">UDINT</tspan>
+  </text>
+  <rect x="228" y="125" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="141">length of data</tspan>
+  </text>
+  <rect x="1" y="153" width="401" height="28" fill="#eeeeee" stroke="#999999" />
+  <text font-weight="bold" fill="#000000">
+    <tspan x="9" y="169">Outputs</tspan>
+  </text>
+  <rect x="1" y="181" width="103" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="9" y="197">SecBlfEncrypt</tspan>
+  </text>
+  <rect x="104" y="181" width="124" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="112" y="197">USINT</tspan>
+  </text>
+  <rect x="228" y="181" width="174" height="28" fill="#ffffff" stroke="#999999" />
+  <text font-weight="normal" fill="#000000">
+    <tspan x="236" y="197" />
+  </text>
+</svg>
