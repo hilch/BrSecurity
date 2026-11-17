@@ -1,5 +1,6 @@
 Temp
-/As/*.set
+/tools/AS4/**/*.set
+/tools/AS6/**/*.set
 Binaries
 Diagnosis
 *.isopen
