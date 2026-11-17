@@ -7,9 +7,11 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-char heap[1000];
+#define HEAP_SIZE 1000
+
+char heap[HEAP_SIZE];
 char *heapstart=heap;
-char *heapend=&heap[1000];
+char *heapend=&heap[HEAP_SIZE-1];
 
 
 void abort(void)
