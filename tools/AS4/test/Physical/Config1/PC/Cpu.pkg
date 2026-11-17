@@ -12,6 +12,8 @@
     <AutomationRuntime Version="U4.93" />
     <Build GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
+    <Transfer SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" />
     <Vc FirmwareVersion="nicht verwendet" />
+    <OnlineConfiguration Name="ARsim_TCPIP" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=1" ConnectionParameters="/COMT=2500 /RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1" Description="" />
   </Configuration>
 </Cpu>

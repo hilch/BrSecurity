@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.6.3.55 SP?>
+<?AutomationStudio FileVersion="4.9"?>
 <Cpu xmlns="http://br-automation.co.at/AS/Cpu">
   <Objects>
     <Object Type="File" Description="Software configuration">Cpu.sw</Object>
@@ -18,7 +18,7 @@
     <Object Type="Package">mappCockpit</Object>
   </Objects>
   <Configuration ModuleId="X20CP0410">
-    <AutomationRuntime Version="B4.62" />
+    <AutomationRuntime Version="U4.93" />
     <Build GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Vc FirmwareVersion="V4.62.0" />

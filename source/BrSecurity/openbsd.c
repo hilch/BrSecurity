@@ -34,7 +34,7 @@ void arc4random_buf(void *buf, size_t nbytes)
 
 void arc4random_init(void)
 {
-	DATE_AND_TIME dt1;
+	DATE_AND_TIME dt1=0;
 	DTGetTime_typ get_time;
 
 	get_time.enable = 1;
