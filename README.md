@@ -1,4 +1,5 @@
-[![License](https://img.shields.io/badge/License-BSD%204--Clause-blue.svg)](https://opensource.org/licenses/BSD-4-Clause) [![Made For B&R](https://github.com/hilch/BandR-badges/blob/main/Made-For-BrAutomation.svg)](https://www.br-automation.com)
+![License: MIT + BSD-4-Clause](https://img.shields.io/badge/License-MIT%20%2B%20BSD--4--Clause-blue.svg)
+[![Made For B&R](https://github.com/hilch/BandR-badges/blob/main/Made-For-BrAutomation.svg)](https://www.br-automation.com)
 
 # BrSecurity
 Security Functions for B&amp;R Automation Studio.
