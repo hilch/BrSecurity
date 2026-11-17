@@ -13,6 +13,7 @@ char heap[HEAP_SIZE];
 char *heapstart=heap;
 char *heapend=&heap[HEAP_SIZE-1];
 
+unsigned long bur_heap_size = 0xFFFF;
 
 void abort(void)
 {
